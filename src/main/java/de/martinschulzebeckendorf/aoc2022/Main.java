@@ -1,6 +1,7 @@
 package de.martinschulzebeckendorf.aoc2022;
 
 import de.martinschulzebeckendorf.aoc2022.puzzle.Day01;
+import de.martinschulzebeckendorf.aoc2022.puzzle.Day02;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,5 +11,10 @@ public class Main {
         Day01 puzzle01 = new Day01("/Day01_Input.txt");
         System.out.println("Part 1: " + puzzle01.getCaloriesOfElfCarryingMost());
         System.out.println("Part 2: " + puzzle01.getCaloriesOf3ElfesCarryingMost());
+
+        System.out.println("Day 2");
+        Day02 puzzle02 = new Day02("/Day02_Input.txt");
+        System.out.println("Part 1: " + puzzle02.calculateTotalScorePart1());
+        System.out.println("Part 2: " + puzzle02.calculateTotalScorePart2());
     }
 }
