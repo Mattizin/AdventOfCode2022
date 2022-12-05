@@ -3,6 +3,7 @@ package de.martinschulzebeckendorf.aoc2022;
 import de.martinschulzebeckendorf.aoc2022.puzzle.Day01;
 import de.martinschulzebeckendorf.aoc2022.puzzle.Day02;
 import de.martinschulzebeckendorf.aoc2022.puzzle.Day03;
+import de.martinschulzebeckendorf.aoc2022.puzzle.Day04;
 
 public class Main {
     public static void main(String[] args) {
@@ -22,5 +23,10 @@ public class Main {
         Day03 puzzle03 = new Day03("/Day03_Input.txt");
         System.out.println("Part 1: " + puzzle03.calcPrioritySumOfSharedItems());
         System.out.println("Part 2: " + puzzle03.calcPioritySumOfBadgeItems());
+
+        System.out.println("Day 4");
+        Day04 puzzle04 = new Day04("/Day04_Input.txt");
+        System.out.println("Part 1: " + puzzle04.assignmentPairsFullyContained());
+        System.out.println("Part 2: " + puzzle04.assignmentPairsOverlapping());
     }
 }
