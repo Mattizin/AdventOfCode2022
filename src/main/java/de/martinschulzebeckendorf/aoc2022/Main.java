@@ -1,9 +1,6 @@
 package de.martinschulzebeckendorf.aoc2022;
 
-import de.martinschulzebeckendorf.aoc2022.puzzle.Day01;
-import de.martinschulzebeckendorf.aoc2022.puzzle.Day02;
-import de.martinschulzebeckendorf.aoc2022.puzzle.Day03;
-import de.martinschulzebeckendorf.aoc2022.puzzle.Day04;
+import de.martinschulzebeckendorf.aoc2022.puzzle.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -28,5 +25,10 @@ public class Main {
         Day04 puzzle04 = new Day04("/Day04_Input.txt");
         System.out.println("Part 1: " + puzzle04.assignmentPairsFullyContained());
         System.out.println("Part 2: " + puzzle04.assignmentPairsOverlapping());
+
+        System.out.println("Day 5");
+        Day05 puzzle05 = new Day05("/Day05_Input.txt");
+        System.out.println("Part 1: " + puzzle05.calcGratesOnTop());
+        System.out.println("Part 2: " + puzzle05.calcGratesOnTopCrateMover9001());
     }
 }
