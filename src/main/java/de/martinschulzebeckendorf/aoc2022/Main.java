@@ -30,5 +30,10 @@ public class Main {
         Day05 puzzle05 = new Day05("/Day05_Input.txt");
         System.out.println("Part 1: " + puzzle05.calcGratesOnTop());
         System.out.println("Part 2: " + puzzle05.calcGratesOnTopCrateMover9001());
+
+        System.out.println("Day 6");
+        Day06 puzzle06 = new Day06("/Day06_Input.txt");
+        System.out.println("Part 1: " + puzzle06.calcStartOfPacketMarker());
+        System.out.println("Part 2: " + puzzle06.calcStartOfMessageMarker());
     }
 }
