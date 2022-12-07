@@ -35,5 +35,10 @@ public class Main {
         Day06 puzzle06 = new Day06("/Day06_Input.txt");
         System.out.println("Part 1: " + puzzle06.calcStartOfPacketMarker());
         System.out.println("Part 2: " + puzzle06.calcStartOfMessageMarker());
+
+        System.out.println("Day 7");
+        Day07 puzzle07 = new Day07("/Day07_Input.txt");
+        System.out.println("Part 1: " + puzzle07.sumOfDirectorySizesMax100k());
+        System.out.println("Part 2: " + puzzle07.smallestDirSizeForDeletion(70000000, 30000000));
     }
 }
