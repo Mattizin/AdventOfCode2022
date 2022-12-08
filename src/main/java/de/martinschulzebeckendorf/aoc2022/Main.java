@@ -40,5 +40,10 @@ public class Main {
         Day07 puzzle07 = new Day07("/Day07_Input.txt");
         System.out.println("Part 1: " + puzzle07.sumOfDirectorySizesMax100k());
         System.out.println("Part 2: " + puzzle07.smallestDirSizeForDeletion(70000000, 30000000));
+
+        System.out.println("Day 8");
+        Day08 puzzle08 = new Day08("/Day08_Input.txt");
+        System.out.println("Part 1: " + puzzle08.treesVisible());
+        System.out.println("Part 2: " + puzzle08.maxTreeScenicScore());
     }
 }
