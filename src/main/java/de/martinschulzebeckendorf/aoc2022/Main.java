@@ -45,5 +45,10 @@ public class Main {
         Day08 puzzle08 = new Day08("/Day08_Input.txt");
         System.out.println("Part 1: " + puzzle08.treesVisible());
         System.out.println("Part 2: " + puzzle08.maxTreeScenicScore());
+
+        System.out.println("Day 9");
+        Day09 puzzle09 = new Day09("/Day09_Input.txt");
+        System.out.println("Part 1: " + puzzle09.distinctPositionsVisitedByTail(1));
+        System.out.println("Part 2: " + puzzle09.distinctPositionsVisitedByTail(9));
     }
 }
