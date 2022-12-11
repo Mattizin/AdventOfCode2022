@@ -2,6 +2,8 @@ package de.martinschulzebeckendorf.aoc2022;
 
 import de.martinschulzebeckendorf.aoc2022.puzzle.*;
 
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello Advent of Code 2022!");
@@ -50,5 +52,11 @@ public class Main {
         Day09 puzzle09 = new Day09("/Day09_Input.txt");
         System.out.println("Part 1: " + puzzle09.distinctPositionsVisitedByTail(1));
         System.out.println("Part 2: " + puzzle09.distinctPositionsVisitedByTail(9));
+
+        System.out.println("Day 10");
+        Day10 puzzle10 = new Day10("/Day10_Input.txt");
+        System.out.println("Part 1: " + puzzle10.sumSignalStrengthsAtCycles(List.of(20, 60, 100, 140, 180, 220)));
+        System.out.println("Part 2:");
+        puzzle10.drawCRT();
     }
 }
