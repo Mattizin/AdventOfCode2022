@@ -58,5 +58,10 @@ public class Main {
         System.out.println("Part 1: " + puzzle10.sumSignalStrengthsAtCycles(List.of(20, 60, 100, 140, 180, 220)));
         System.out.println("Part 2:");
         puzzle10.drawCRT();
+
+        System.out.println("Day 11");
+        Day11 puzzle11 = new Day11("/Day11_Input.txt");
+        System.out.println("Part 1: " + puzzle11.businessLevelMostActiveMonkey(20, true));
+        System.out.println("Part 2: " + puzzle11.businessLevelMostActiveMonkey(10000, false));
     }
 }
